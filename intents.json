@@ -1,0 +1,124 @@
+{
+  "intents": [
+      {
+          "tag": "greating",
+          "patterns": ["Salut", "Hello", "Bonjour", "Puis-je parler à quelqu'un?", "Y'a quelqu'un?", "Coucou"],
+          "responses": ["Salut, bienvenue à TELECEL FASO. J'espère que vous vous portez bien. Je suis Dominique votre assistant clientèle virtuel; Dites moi en quoi je peux vous aider.", "Bonjour, bienvenue à TELECEL FASO. Je suis Dominique votre assistant; Comment puis-je vous aider?", "Bonjour, bienvenue à TELECEL FASO. Dominique pour vous servir; Quels sont vos préoccupations?", "Hello! Bienvenue à TELECEL FASO. Moi c'est Dominique; que puis-je faire pour vous?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Aurevoir", "A bientôt", "Bye", "A plus"],
+          "responses": ["Au plaisir de vous revoir", "Bonne journée", "Passez une excelente journée", "Bonne suite à vous", "Aurevoir, vous serez toujours le bienvenu"]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Merci", "Merci beaucoup", "Merci pour votre aide", "Merci pour l'assistance", "Je vous remercie"],
+          "responses": ["Je vous en prie", "Pas de quoi", "Non pas de quoi, je suis là pour vous servir"]
+      },
+      {
+          "tag": "about",
+          "patterns": ["Qui est-tu?", "Qu'est ce que tu es?", "Qu'est-tu?", "Qui tu es?"],
+          "responses": ["Je suis Dominique, ton assistant virtuel chez TELECEL FASO", "Je suis Dominique, une intelligence artificielle développée par TELECEL FASO"]
+      },
+      {
+          "tag": "name",
+          "patterns": ["comment tu t'appelles?", "Quel est ton nom?", "A qui ais-je l'honneur?"],
+          "responses": ["Je m'appelle Dominique", "Mon nom est Dominique", "Vous pouvez m'appeler Dominique"]
+      },
+      {
+          "tag": "help",
+          "patterns": ["pouvez vous m'aider?", "J'ai besoin d'aide s'il vous plait", "Puis-je avoir des informations?", "Puis-je me renseigner?", "J'ai besoin de renseignements"],
+          "responses": ["En quoi puis-je vous aider?", "Dites moi comment je peux vous venir en aide", "Je suis là pour vous assister, dites moi quel est votre problème", "Quels sont vos préoccupations?"]
+      },
+      {
+          "tag": "complaint",
+          "patterns": ["J'ai une plainte", "J'aimerais formuler une plainte", "Je ne suis pas content de vos services", "Je suis decu par vos services"],
+          "responses": ["Veuillez nous faire part de votre plainte afin de vous aider", "Veuillez mentionner votre plainte, nous sommes désolés pour tout inconvénient causé"]
+      },
+      {
+          "tag": "esimA",
+          "patterns": ["Comment puis-je passer à la eSIM chez Telecel Faso ?",  "Comment acheter une esim Telecel ?", "Me procurer une esim", "Comment obtenir une esim Telecel"],
+          "responses": ["Pour passer à la eSIM, rendez-vous dans notre agence Siège de Ouagadougou muni de votre CNIB."]
+      },
+      {
+          "tag": "esimB",
+          "patterns": ["Est-ce que je peux avoir jusqu'a trois numéros activés simultanément avec la eSIM ?", "Combien de numéros esim je peux utiliser ? ", "Limite de numéros esim ", "Maximum numéros esim "],
+          "responses": ["A ce jour la eSIM permet d'embarquer plusieurs eSIM sur un même téléphone. Cependant sur la plupart des smartphones compatibles eSIM, le nombre de SIMs pouvant être activé simultanément est de deux. "]
+      },
+      {
+          "tag": "esimC",
+          "patterns": ["Est-ce que la eSIM coûte plus chère que la SIM classique ?", "Combien coute la esim", "Le prix de la esim", "A combien on peut payer une esim "],
+          "responses": ["Les tarifs de la eSIM sont exactement les mêmes que ceux de la SIM classique. Les tarifs varient en fonction du type de numéro et d'abonnement."]
+      },
+      {
+          "tag": "esimD",
+          "patterns": ["Qu'est-ce que la eSIM ?", "Explique moi le principe de la eSIM", "C'est quoi la eSIM ?", "Comment se définit la eSIM ?", "Definition de eSIM"],
+          "responses": ["La eSIM est une SIM intégrée avec votre smartphone. Elle vous permet d'utiliser votre téléphone exactement de la même manière qu'avec une SIM classique sauf que la SIM n'a pas de support classique."]
+      },
+      {
+          "tag": "esimE",
+          "patterns": ["Tous les smartphones sont-ils compatibles eSIM ?", "Quels sont les smartphones compatibles avec la eSIM ?", "Avec quel telephone ou smartphone utiliser la eSIM "],
+          "responses": ["Les smartphones compatibles eSIM sont :\n•\tApple iPhone XS, XS Max, XR, SE 2 (2020) ; Apple iPhone 11 Pro Max, 11 Pro, 11 ; Apple iPhone 12 Pro Max, 12 Pro, 12 mini, 12 ; Apple iPhone 13 Pro Max, 13 Pro, 13 mini, 13 ; Apple iPhone 14 Pro Max, 14Pro, 14Plus, 14; Apple iPhone 15 Pro Max, 15 Pro, 15 Plus,15.\n•\tSamsung Galaxy S20, S20+, S20 Ultra ; Samsung Galaxy Note20, Note20 Ultra ; Samsung Galaxy S21 5G, S21+ 5G, S21 Ultra 5G ; Samsung Galaxy Z Flip, Z Fold 2, Z Fold 3 5G, Samsung Galaxy Z Flip 3 5G Fold, Z Flip 3 5G\n•\tHuawei P40, P40 Pro, Mate 40 Pro\n•\tGoogle Pixel 6 Pro, 6, 5, 4, 4a, 4 XL, 3, 3 XL, 3a, 3a XL\n•\tHONOR Magic 3, Magic 3 Pro, Magic 3 Pro+, 50\n•\tMicrosoft Surface Duo, Surface Pro X, Surface Go 2, Surface Go 3, New Surface Pro 7+, Surface Pro LTE, Surface Pro 5 LTE Advanced, Surface Pro 8, Dell Latitude."]
+      },
+      {
+          "tag": "identificationA",
+          "patterns": ["Pourquoi dois-je indentifier ma puce?", "Qu'elle est l'intéret d'itenfier ma puce?", "Pourquoi identifier ma SIM?", "Pourquoi faire l'identification?"],
+          "responses": ["L'identification de votre puce est une obligation légale qui s'impose à tous.\nHors réglementation, l'identification de votre puce vous assure que vous pourrez toujours retirer votre numéro en nous présentant un document d'identité."]
+      },
+      {
+          "tag": "identificationB",
+          "patterns": ["Comment identifier ma puce?", "Comment identifier ma sim?", "Comment faire l'identification?", "Où identifier ma puce?", "Où faire l'identification?", "Où identifier ma sim?"],
+          "responses": ["Pour identifier votre puce, vous pouvez :\n•\tUtiliser l'application de messagerie instantanée Whatsapp ;\n•\tUtiliser le formulaire présent sur notre site web ;\n•\tVous rendre dans une de nos agences ou un nos points de vente.\nEn possession de la procuration signée de votre main, de votre pièce d'identité physique et de sa propre pièce d'identité, cette personne de confiance pourra effectuer les diverses opérations en votre nom."]
+      },
+      {
+          "tag": "identificationC",
+          "patterns": ["Comment savoir que je suis complètement identifié ?", "Comment vérifier mon identification?"],
+          "responses": ["Pour savoir si vous êtes complètement identifié, envoyez « id » au 148 (l'envoi du SMS est gratuit).\nSi vous recevez un SMS disant « votre numéro XX XX XX XX est complètement identifié », alors votre identification est en règle.\nDans toute autre cas, merci de procéder à la régularisation de l'identification."]
+      },
+      {
+          "tag": "identificationD",
+          "patterns": ["Comment modifier la personne identifiée sur la carte SIM ?", "Comment modifier une identification", "Comment changer l'identité sur la sim?"],
+          "responses": ["Si vous connaissez la personne dont l'identité est utilisée sur la carte SIM, il suffit de vous rendre dans un point de vente avec sa pièce d'identité, votre pièce d'identité et la carte SIM pour effectuer le changement.\nSi vous ne connaissez pas la personne dont l'identité est utilisée sur la SIM, il faudra vous rendre en agence Telecel avec la carte SIM et prouver que vous êtes véritablement l'utilisateur de la SIM."]
+      },
+      {
+          "tag": "abonnementA",
+          "patterns": ["Comment m'abonner à TELECEL?", "Comment se procurer une sim Telecel?", "Comment acheter une puce Telecel?"],
+          "responses": ["Pour s'abonner à Telecel, rendez-vous dans une agence ou un point de vente Telecel muni d'une des pièces d'identité suivantes :\n•\tCNIB ;\n•\tCNI CEDEAO ;\n•\tUn passeport ;\n•\tUne carte consulaire ;\n•\tUne carte militaire ;\n•\tLe registre de commerce pour les entreprises commerciales ."]
+      },
+      {
+          "tag": "abonnementB",
+          "patterns": ["Quels sont les avantages de l'abonnement à Telecel ?", "Pourquoi choisir TELECEL?", "Avantages d'avoir une sim TELECEL"],
+          "responses": ["•\tLes bonus d'appel et SMS ;\n•\tBonus internet ;\n•\tMeilleure qualité de réseau ;\n•\tConnexion haut-débit ;\n•\tMeilleurs tarifs du marché ;\n•\tMeilleures offres promotionnelles du marché ;\n•\tAppartenir à la famille Telecel."]
+      },
+      {
+          "tag": "abonnementC",
+          "patterns": ["Est-ce-que je dois forcément me déplacer en agence pour une opération ?", "Que faire si je ne peut pas me rendre en agence?", "Je ne peux pas me déplacer"],
+          "responses": ["Si vous ne pouvez pas physiquement vous déplacer dans une nos agences pour effectuer une opération (abonnement, changement de SIM, etc.), il vous est possible de :\n1. Remplir une procuration ;\n2. Signer la procuration ;\n3. Remettre la procuration et votre pièce d'identité à une personne de confiance."]
+      },
+      {
+          "tag": "rechargeA",
+          "patterns": ["Comment recharger mon crédit téléphonique ?", "Comment acheter des unités?", "Comment acheter du crédit?"],
+          "responses": ["Vous pouvez recharger votre crédit téléphonique :\n•\ten achetant une carte de recharge à gratter ;\n•\ten vous rendant chez un revendeur agréé muni d'un terminal de recharge ;\n•\ten recevant du crédit d'un autre numéro Telecel."]
+      },
+      {
+          "tag": "rechargeB",
+          "patterns": ["Comment souscrire à un forfait internet ?", "Comment acheter des mégas?", "Obtenir des mégas", "Recharger des mégas"],
+          "responses": ["Pour souscrire à un forfait internet, composez *160# puis suivez les instructions."]
+      },
+      {
+          "tag": "rechargeC",
+          "patterns": ["Comment acheter des mégas pour quelqu'un ?", "Comment souscrire internet pour un autre numéro?", "Comment offrir des mégas à quelqu'un?"],
+          "responses": ["Pour acheter des mégas pour un autre numéro Telecel, composez *160# et suivez les instructions."]
+      },
+      {
+          "tag": "soldeA",
+          "patterns": ["Comment consulter mon solde de crédit ?", "Comment savoir combien d'unités il me reste?", "Consulter mes unités"],
+          "responses": ["Pour consulter votre solde de crédit, composez *110#. Votre solde s'affiche à l'écran.\nVous pouvez également appeler le 333."]
+      },
+      {
+          "tag": "soldeB",
+          "patterns": ["Comment consulter mes mégas restants ?", "consulter mon forfait internet", "Savoir combien de mégas il me reste"],
+          "responses": ["Pour consulter votre solde de mégas ou gigas restant vous pouvez :\n•\tComposer *160*3#\n•\tComposer *110# (vous recevrez un SMS indiquant les mégas ou gigas restants)\n•\tEnvoyer « data » au 190"]
+      }
+  ]
+}
