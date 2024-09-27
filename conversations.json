@@ -1,0 +1,78 @@
+[
+    {
+        "user": "bonjour",
+        "bot": "Hello! Bienvenue \u00e0 TELECEL FASO. Moi c'est Dominique; que puis-je faire pour vous?"
+    },
+    {
+        "user": "comment vous allez",
+        "bot": "Pour consulter votre solde de cr\u00e9dit, composez *110#. Votre solde s'affiche \u00e0 l'\u00e9cran.\nVous pouvez \u00e9galement appeler le 333."
+    },
+    {
+        "user": "comment consulter le solde",
+        "bot": "Pour consulter votre solde de cr\u00e9dit, composez *110#. Votre solde s'affiche \u00e0 l'\u00e9cran.\nVous pouvez \u00e9galement appeler le 333."
+    },
+    {
+        "user": "forfait internet",
+        "bot": "Pour consulter votre solde de m\u00e9gas ou gigas restant vous pouvez :\n\u2022\tComposer *160*3#\n\u2022\tComposer *110# (vous recevrez un SMS indiquant les m\u00e9gas ou gigas restants)\n\u2022\tEnvoyer \u00ab data \u00bb au 190"
+    },
+    {
+        "user": "indentification",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "identifier ma puce",
+        "bot": "Pour identifier votre puce, vous pouvez :\n\u2022\tUtiliser l'application de messagerie instantan\u00e9e Whatsapp ;\n\u2022\tUtiliser le formulaire pr\u00e9sent sur notre site web ;\n\u2022\tVous rendre dans une de nos agences ou un nos points de vente.\nEn possession de la procuration sign\u00e9e de votre main, de votre pi\u00e8ce d'identit\u00e9 physique et de sa propre pi\u00e8ce d'identit\u00e9, cette personne de confiance pourra effectuer les diverses op\u00e9rations en votre nom."
+    },
+    {
+        "user": "merci",
+        "bot": "Je vous en prie"
+    },
+    {
+        "user": "quit",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "quitter",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "bonjour",
+        "bot": "Bonjour, bienvenue \u00e0 TELECEL FASO. Dominique pour vous servir; Quels sont vos pr\u00e9occupations?"
+    },
+    {
+        "user": "ouverture",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "maison",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "cahier",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "esim",
+        "bot": "La eSIM est une SIM int\u00e9gr\u00e9e avec votre smartphone. Elle vous permet d'utiliser votre t\u00e9l\u00e9phone exactement de la m\u00eame mani\u00e8re qu'avec une SIM classique sauf que la SIM n'a pas de support classique."
+    },
+    {
+        "user": "internet",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "forfait",
+        "bot": "Je ne comprends pas..."
+    },
+    {
+        "user": "forfait internet",
+        "bot": "Pour consulter votre solde de m\u00e9gas ou gigas restant vous pouvez :\n\u2022\tComposer *160*3#\n\u2022\tComposer *110# (vous recevrez un SMS indiquant les m\u00e9gas ou gigas restants)\n\u2022\tEnvoyer \u00ab data \u00bb au 190"
+    },
+    {
+        "user": "comment avoir la esim",
+        "bot": "La eSIM est une SIM int\u00e9gr\u00e9e avec votre smartphone. Elle vous permet d'utiliser votre t\u00e9l\u00e9phone exactement de la m\u00eame mani\u00e8re qu'avec une SIM classique sauf que la SIM n'a pas de support classique."
+    },
+    {
+        "user": "comment me procurer une esim",
+        "bot": "Pour passer \u00e0 la eSIM, rendez-vous dans notre agence Si\u00e8ge de Ouagadougou muni de votre CNIB."
+    }
+]
